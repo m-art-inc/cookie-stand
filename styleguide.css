@@ -24,8 +24,23 @@
 }
 
 #header3{
-  font-family: Verdana;
+  font-family: 'Open Sans', sans-serif;;
   color: #cc924e;
+}
+
+#highlight-text{
+  font-family: 'Open Sans', sans-serif;
+  color: #cc924e;
+}
+
+#p-body{
+  font-family: 'Lora', serif;
+
+}
+
+#p-data{
+  font-family: 'Open Sans', sans-serif;
+  color: #a6453d;
 }
 
 .color_pallete{
