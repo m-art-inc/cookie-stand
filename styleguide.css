@@ -1,12 +1,13 @@
 .container{
   margin: auto;
+  text-align: center;
 }
 .main-header1, h1{
   display: block;
   font-family: 'Frijole', cursive;
   color: #a6453d;
-  font-weight: normal;
   font-size: 30px;
+  
 }
 #salmon-logo{
   width: 200px;
