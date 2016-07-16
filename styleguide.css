@@ -5,13 +5,20 @@
 .main-header1, h1{
   display: block;
   font-family: 'Frijole', cursive;
+  font-weight: normal;
   color: #a6453d;
-  font-size: 30px;
-  
+  font-size: 28px;
+
 }
 #salmon-logo{
   width: 200px;
   height: 100%;
+}
+#logo-text{
+  font-family: 'Frijole', cursive;
+  font-weight: normal;
+  color: #754c29;
+  font-size: 30px;
 }
 
 #header1{
