@@ -1,0 +1,14 @@
+
+body{
+  background-color: #7ECEFD;
+  color: #E8E8E8;
+
+}
+#salmon-logo{
+  display: block;
+  margin: auto;
+}
+
+h1, h2{
+  text-align: center;
+}
