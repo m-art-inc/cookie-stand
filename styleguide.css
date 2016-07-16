@@ -1,1 +1,37 @@
-font-family: 'Frijole', cursive;
+.container{
+  margin: auto;
+}
+.main-header1, h1{
+  display: block;
+  font-family: 'Frijole', cursive;
+  color: #a6453d;
+  font-weight: normal;
+  font-size: 30px;
+}
+#salmon-logo{
+  width: 200px;
+  height: 100%;
+}
+
+#header1{
+  font-family: 'Open Sans', sans-serif;;
+  color: #cc924e;
+  font-weight: bold;
+}
+#header2{
+  font-family: 'Open Sans', sans-serif;
+  color: #cc924e;
+}
+
+#header3{
+  font-family: Verdana;
+  color: #cc924e;
+}
+
+.color_pallete{
+  display: inline-block;
+}
+#color1, #color2, #color3{
+  width: 100px;
+  height: 100px;
+}
