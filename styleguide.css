@@ -5,9 +5,8 @@
 .main-header1, h1{
   display: block;
   font-family: 'Frijole', cursive;
-  font-weight: normal;
   color: #a6453d;
-  font-size: 28px;
+  font-size: 26px;
 
 }
 #salmon-logo{
@@ -22,7 +21,7 @@
 }
 
 #header1{
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   color: #cc924e;
   font-weight: bold;
 }
