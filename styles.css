@@ -3,11 +3,47 @@ body{
   background-color: #f9d2b0;
 
 }
-#salmon-logo{
-  display: block;
+
+.title-section{
+  width: 100%;
+  background-color: #754c29;;
   margin: auto;
+  text-align: center;
 }
 
-h1, h2{
-  text-align: center;
+.tables-section{
+  font-family: 'Open Sans', sans-serif;  text-align: center;
+  color: #754c29;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+table{
+  padding: 10px;
+  float:left;
+  width: 33.3%;
+  box-sizing: border-box;
+
+}
+
+td{
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+th{
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#salmon-logo{
+  display: block;
+  width: 200px;
+  height: 100%;
+  margin: auto;
+}
+#title-header{
+  font-family: 'Frijole', cursive;
+  font-weight: normal;
+  color: #a6463d;
+  font-size: 30px;
 }
