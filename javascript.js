@@ -10,7 +10,7 @@ var pioneerSquare = {
 
 randomCustomersPerHour: function() {
       var listBuilt = '';
-          listBuilt += '<th>' + this.locationName +'</th>';
+          listBuilt += '<tr><th>' + this.locationName +'</tr></th>';
       for (var index = this.openHour; index <= this.closeHour; index++) {
             listBuilt += '<tr><td>';
         var randomCookiesSales = Math.random() * (this.maxCust - this.minCust);
@@ -34,6 +34,7 @@ randomCustomersPerHour: function() {
             listBuilt += '</td>';
             listBuilt += '</tr>';
             this.openHour++;
+
         }
 
       var listsElem = document.getElementById("pioneerSquare");

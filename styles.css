@@ -7,7 +7,7 @@ body{
 .title-section{
   width: 100%;
   background-color: #754c29;;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ body{
   font-family: 'Open Sans', sans-serif;  text-align: center;
   color: #754c29;
   width: 100%;
-  background-color: #ffffff;
+  
 }
 
 table{
@@ -31,6 +31,7 @@ td{
   border: 1px solid #ffffff;
 }
 th{
+  column-span: all;
   padding: 20px;
   background-color: #ffffff;
 }
