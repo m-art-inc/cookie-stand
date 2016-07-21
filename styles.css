@@ -1,27 +1,62 @@
-
+/*
+  ========================================
+  Body Main
+  ========================================
+*/
 body{
-  background-color: #f9d2b0;
+  background-color: #6a6a6a;
 
 }
 
+/*
+  ========================================
+  Titl Section
+  ========================================
+*/
 .title-section{
   width: 100%;
-  background-color: #754c29;;
+  background-color: #ffffff;;
   margin: 0 auto;
   text-align: center;
 }
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+nav {
+  display: block;
+  font-family: 'Open Sans', sans-serif;  text-align: center;
 
+}
+a:link {
+    color: #754c29;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: #ff6d2c;
+}
+
+a:visited {
+    color: #6a6a6a;
+}
+/*
+  ========================================
+  Tables
+  ========================================
+*/
 .tables-section{
   font-family: 'Open Sans', sans-serif;  text-align: center;
-  color: #754c29;
+  color: #ff6d2c;
   width: 100%;
-  
+
 }
 
 table{
   padding: 10px;
   float:left;
-  width: 33.3%;
+  width: 50%;
   box-sizing: border-box;
 
 }
@@ -35,16 +70,33 @@ th{
   padding: 20px;
   background-color: #ffffff;
 }
-
+/*
+  ========================================
+  Logo Section
+  ========================================
+*/
 #salmon-logo{
   display: block;
   width: 200px;
   height: 100%;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 #title-header{
   font-family: 'Frijole', cursive;
   font-weight: normal;
-  color: #a6463d;
+  color: #ff6d2c;
   font-size: 30px;
+}
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+footer{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    color: #ff6d2c;
 }
