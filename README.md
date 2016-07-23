@@ -1,6 +1,6 @@
 # cookie-stand
 
-This is the class08 part of the 2nd project for Code Fellows 201.
+This is the class09 part of the 2nd project for Code Fellows 201.
 
 
 ## License
