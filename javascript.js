@@ -1,4 +1,92 @@
-//Pioneer Square
+function Location(locationName, minHourlyCust, maxHourlyCust, averageSales) {
+    this.locationName = locationName;
+    this.minHourlyCust = minHourlyCust;
+    this.maxHourlyCust = maxHourlyCust;
+    this.averageSales = averageSales;
+    this.openHour = 10;
+    this.closeHour = 18;
+    randomCustomersPerHour = function() {
+    };
+
+    this.addLocation = function() {
+        var table = document.createElement('table');
+        var timeCol = document.createElement("tr");
+        var timeCel = document.createElement("th");
+          timeCel.innerText = this.locationName;
+          timeCol.appendChild(timeCel);
+        var salesCel = document.createElement("th");
+          salesCel.innerText = "Sales Per Hour";
+          timeCol.appendChild(salesCel);
+          table.appendChild(timeCol);
+        var openHour = this.openHour;
+        var closeHour = this.closeHour;
+        var salesPerHour = [];
+        for (var x = openHour; x <= closeHour; x++) {
+            var randomCustomers = Math.floor((Math.random() * (this.maxHourlyCust - this.minHourlyCust)) + this.minHourlyCust);
+            var randCookiesSales = randomCustomers * this.averageSales;
+              salesPerHour.push(parseInt(randCookiesSales));
+        }
+
+        for (var index = 0; index < salesPerHour.length; index++) {
+            var tableRow = document.createElement('tr');
+            var timeNode = document.createElement('td');
+            var salesNode = document.createElement('td');
+            var sales = document.createTextNode(salesPerHour[index]);
+            var hour = openHour;
+            if (hour < 12) {
+                var timeAm = document.createTextNode(openHour + 'am');
+                  timeNode.appendChild(timeAm);
+                  salesNode.appendChild(sales);
+            } else if (hour == 12) {
+                var timeNoon = document.createTextNode(openHour + 'pm');
+                  timeNode.appendChild(timeNoon);
+                  salesNode.appendChild(sales);
+            } else {
+                var timePm = document.createTextNode(openHour - 12 + 'pm');
+                  timeNode.appendChild(timePm);
+                  salesNode.appendChild(sales);
+            }
+            tableRow.appendChild(timeNode);
+            tableRow.appendChild(salesNode);
+            table.appendChild(tableRow);
+            openHour++;
+          }
+        var total = 0;
+        for (var s = 0; s < salesPerHour.length; s++) {
+            total += salesPerHour[s];
+          }
+        var totalRow = document.createElement('tr');
+        var totalNode = document.createElement('td');
+        var totalTdTextNode = document.createElement('td');
+        var totalWordTextNode = document.createTextNode('Total:');
+        var dataTotal = document.createTextNode(total);
+          totalTdTextNode.appendChild(totalWordTextNode);
+          totalRow.appendChild(totalTdTextNode);
+          totalNode.appendChild(dataTotal);
+          totalRow.appendChild(totalNode);
+          table.appendChild(totalRow);
+        return table;
+    };
+}
+
+var locations = [
+    new Location("Pioneer Square", 17, 88, 5.2),
+    new Location("Portland Airport", 6, 24, 1.2),
+    new Location("Washington Square", 11, 38, 1.9),
+    new Location("Sellwood", 20, 48, 3.3),
+    new Location("Pearl District", 3, 24, 2.6)
+];
+
+function checkLocations() {
+    for (var index = 0; index < locations.length; index++) {
+        var newTable = locations[index].addLocation();
+        var tablesContainer = document.getElementById("tables");
+          tablesContainer.appendChild(newTable);
+    };
+};
+checkLocations();
+
+/*
 var pioneerSquare = {
     locationName: "Pioneer Square",
     minCust: 17,
@@ -225,3 +313,4 @@ portlandAirport.randomCustomersPerHour();
 washingtonSquare.randomCustomersPerHour();
 sellwood.randomCustomersPerHour();
 pearlDistrict.randomCustomersPerHour();
+*/
