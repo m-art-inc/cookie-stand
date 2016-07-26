@@ -95,6 +95,11 @@ form label, form input {
   margin: 10px auto;
   width: 100%;
 }
+#form-legend{
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
 
 /*
   ========================================
@@ -127,6 +132,11 @@ footer{
     color: #ff6d2c;
 }
 
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
 .btn {
   display: inline-block;
   box-sizing: border-box;
