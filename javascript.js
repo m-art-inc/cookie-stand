@@ -90,17 +90,21 @@ checkLocations();
 var button = document.getElementById('locationBtn');
 
 button.addEventListener("click", function() {
-    var locationName, minCust, maxCust, avgSls;
+    var locationName, minCust, maxCust, avgSales;
     locationName = document.getElementById('name').value;
     minCust = document.getElementById('minHour').value;
     maxCust = document.getElementById('maxHour').value;
-    avgSls = document.getElementById('averageCust').value;
-    var addedLoc = new Location(locationName, minCust, maxCust, avgSls);
+    avgSales = document.getElementById('averageCust').value;
+    var addedLoc = new Location(locationName, minCust, maxCust, avgSales);
     var returnedTable = addedLoc.addLocation();
 
     var tablesContainer = document.getElementById("tables");
     tablesContainer.appendChild(returnedTable);
 })
+
+function resetFunction() {
+    document.getElementById("myForm").reset();
+}
 /*
 var pioneerSquare = {
     locationName: "Pioneer Square",
