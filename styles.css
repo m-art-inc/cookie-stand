@@ -47,7 +47,8 @@ a:visited {
   ========================================
 */
 .tables-section{
-  font-family: 'Open Sans', sans-serif;  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
   color: #ff6d2c;
   width: 100%;
 
@@ -70,6 +71,32 @@ th{
   padding: 20px;
   background-color: #ffffff;
 }
+
+#user-table{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: #ff6d2c;
+  width: 50%;
+}
+
+/*
+  ========================================
+  Form Section
+  ========================================
+*/
+form {
+  text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+form label, form input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
 /*
   ========================================
   Logo Section
