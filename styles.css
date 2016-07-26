@@ -129,19 +129,15 @@ footer{
 }
 
 .btn {
-  -webkit-border-radius: 7;
-  -moz-border-radius: 7;
-  border-radius: 7px;
-  font-family: Arial;
   color: #ffffff;
+  text-decoration: none;
   font-size: 18px;
   background: #ff6d2c;
   padding: 10px;
-  text-decoration: none;
   width: 25%;
 }
 
 .btn:hover {
-  background: #ff8f78;
+  background: #a3642b;
   text-decoration: none;
 }
