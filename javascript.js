@@ -86,6 +86,21 @@ function checkLocations() {
 };
 checkLocations();
 
+
+var button = document.getElementById('locationBtn');
+
+button.addEventListener("click", function() {
+    var locationName, minCust, maxCust, avgSls;
+    locationName = document.getElementById('name').value;
+    minCust = document.getElementById('minHour').value;
+    maxCust = document.getElementById('maxHour').value;
+    avgSls = document.getElementById('averageCust').value;
+    var addedLoc = new Location(locationName, minCust, maxCust, avgSls);
+    var returnedTable = addedLoc.addLocation();
+
+    var tablesContainer = document.getElementById("tables");
+    tablesContainer.appendChild(returnedTable);
+})
 /*
 var pioneerSquare = {
     locationName: "Pioneer Square",
