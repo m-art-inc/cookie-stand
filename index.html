@@ -21,17 +21,21 @@
   <section>
     <br>
     <div id="user-table">
-      <form class="clearfix">
-        <label for="name">Location Name</label>
-        <input type="text" id="name"></input>
-        <label for="minHour">Minumum Hourly Customer</label>
-        <input type="text" id="minHour"></input>
-        <label for="maxHour">Maximum Hourly Customer</label>
-        <input type="text" id="maxHour"></input>
-        <label for="averageCust">Average Number of Customers</label>
-        <input type="text" id="averageCust"></input>
-        <button type="button" class="btn" id="locationBtn">Add Store</button>
-      </form>
+        <form id="myForm">
+          <fieldset>
+            <legend>Add New Store:</legend>
+            <label for="name">Location Name</label>
+            <input type="text" id="name"></input>
+            <label for="minHour">Minumum Hourly Customer</label>
+            <input type="text" id="minHour"></input>
+            <label for="maxHour">Maximum Hourly Customer</label>
+            <input type="text" id="maxHour"></input>
+            <label for="averageCust">Average Number of Customers</label>
+            <input type="text" id="averageCust"></input>
+            <button type="button" class="btn" id="locationBtn">Add Store</button>
+            <input type="button" onclick="resetFunction()" value="Reset form">
+          </fieldset>
+        </form>
    </div>
   </section>
 
