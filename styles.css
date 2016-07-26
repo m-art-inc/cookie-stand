@@ -26,8 +26,8 @@ body{
 */
 nav {
   display: block;
-  font-family: 'Open Sans', sans-serif;  text-align: center;
-
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 a:link {
     color: #754c29;
@@ -59,7 +59,6 @@ table{
   float:left;
   width: 50%;
   box-sizing: border-box;
-
 }
 
 td{
@@ -87,14 +86,14 @@ th{
 */
 form {
   text-align: left;
-    margin: 0 auto;
-    padding: 10px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 form label, form input {
-    display: block;
-    margin: 10px auto;
-    width: 100%;
+  display: block;
+  margin: 10px auto;
+  width: 100%;
 }
 
 /*
@@ -129,12 +128,14 @@ footer{
 }
 
 .btn {
+  display: inline-block;
+  box-sizing: border-box;
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   background: #ff6d2c;
   padding: 10px;
-  width: 25%;
+  width: 30%;
 }
 
 .btn:hover {
