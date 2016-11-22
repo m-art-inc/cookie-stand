@@ -1,0 +1,62 @@
+.container{
+  margin: auto;
+  text-align: center;
+}
+.main-header1{
+  display: block;
+  font-family: 'Frijole', cursive;
+  color: #ff6d2c;
+  font-size: 26px;
+}
+h1{
+  color: #a3642b;
+}
+
+#salmon-logo{
+  width: 200px;
+  height: 100%;
+}
+#logo-text{
+  font-family: 'Frijole', cursive;
+  font-weight: normal;
+  color: #ff6d2c;
+  font-size: 30px;
+}
+
+#header1{
+  font-family: 'Open Sans', sans-serif;
+  color: #ff6d2c;
+  font-weight: bold;
+}
+#header2{
+  font-family: 'Open Sans', sans-serif;
+  color: #ff6d2c;
+}
+
+#header3{
+  font-family: 'Open Sans', sans-serif;;
+  color: #ff6d2c;
+}
+
+#highlight-text{
+  font-family: 'Open Sans', sans-serif;
+  color: #ff6d2c;
+}
+
+#p-body{
+  font-family: 'Lora', serif;
+  color: #6a6a6a;
+}
+
+#p-data{
+  font-family: 'Open Sans', sans-serif;
+  color: #a3642b;
+}
+
+.color_pallete{
+  display: inline-block;
+}
+#color1, #color2, #color3{
+  width: 100px;
+  height: 100px;
+}

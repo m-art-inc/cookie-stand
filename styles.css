@@ -1,0 +1,154 @@
+/*
+  ========================================
+  Body Main
+  ========================================
+*/
+body{
+  background-color: #6a6a6a;
+
+}
+
+/*
+  ========================================
+  Title Section
+  ========================================
+*/
+.title-section{
+  width: 100%;
+  background-color: #ffffff;;
+  margin: 0 auto;
+  text-align: center;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+nav {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+a:link {
+    color: #754c29;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: #ff6d2c;
+}
+
+a:visited {
+    color: #6a6a6a;
+}
+/*
+  ========================================
+  Tables
+  ========================================
+*/
+.tables-section{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #ff6d2c;
+  width: 100%;
+
+}
+
+table{
+  padding: 10px;
+  float:left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+td{
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+th{
+  column-span: all;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#user-table{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: #ff6d2c;
+  width: 50%;
+}
+
+/*
+  ========================================
+  Form Section
+  ========================================
+*/
+form {
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+form label, form input {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+#form-legend{
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*
+  ========================================
+  Logo Section
+  ========================================
+*/
+#salmon-logo{
+  display: block;
+  width: 200px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#title-header{
+  font-family: 'Frijole', cursive;
+  font-weight: normal;
+  color: #a3642b;
+  font-size: 30px;
+}
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+footer{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    color: #ff6d2c;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  background: #ff6d2c;
+  padding: 10px;
+  width: 30%;
+}
+
+.btn:hover {
+  background: #a3642b;
+  text-decoration: none;
+}

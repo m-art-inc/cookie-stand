@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cookie Store Sales</title>
+    <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section class="title-section">
+    <div>
+      <img id="salmon-logo" src="images/salmon.svg" alt="Salmon Cookies Logo">
+      <h1 id="title-header"><span>Pat's Salmon Cookies</span></h1>
+      <br>
+    </div>
+  </section>
+
+  <section>
+    <br>
+    <div id="user-table">
+        <form id="myForm">
+          <fieldset>
+            <legend id="form-legend">Add New Store:</legend>
+            <label for="name">Location Name</label>
+            <input type="text" id="name"></input>
+            <label for="minHour">Minumum Hourly Customer</label>
+            <input type="text" id="minHour"></input>
+            <label for="maxHour">Maximum Hourly Customer</label>
+            <input type="text" id="maxHour"></input>
+            <label for="averageCust">Average Number of Customers</label>
+            <input type="text" id="averageCust"></input>
+            <button type="button" class="btn" id="locationBtn">Add Store</button>
+            <input type="button" class="btn" onclick="resetFunction()" value="Reset form">
+          </fieldset>
+        </form>
+   </div>
+  </section>
+
+  <section class="tables-section">
+    <br>
+    <div id="tables"></div>
+  </section>
+
+
+
+    <footer><p>&copy; 2016 | Martin Carmen </p></footer>
+
+
+
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
